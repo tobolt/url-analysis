@@ -1,0 +1,19 @@
+{
+  "name": "url-analysis",
+  "version": "1.0.0",
+  "description": "URL analysis along with Node Libraries Performance",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobolt/url-analysis.git"
+  },
+  "author": "Jeevan Prakash Pant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tobolt/url-analysis/issues"
+  },
+  "homepage": "https://github.com/tobolt/url-analysis#readme"
+}
