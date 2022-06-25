@@ -4,7 +4,11 @@
   "description": "URL analysis along with Node Libraries Performance",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "npx eslint .",
+    "lint-fix": "npx eslint . --fix",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,21 @@
   "bugs": {
     "url": "https://github.com/tobolt/url-analysis/issues"
   },
-  "homepage": "https://github.com/tobolt/url-analysis#readme"
+  "homepage": "https://github.com/tobolt/url-analysis#readme",
+  "dependencies": {
+    "playwright": "^1.22.2",
+    "puppeteer": "^15.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^8.15.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.1",
+    "jest": "^28.1.1",
+    "typescript": "^4.7.4"
+  }
 }
