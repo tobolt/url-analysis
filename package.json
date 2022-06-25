@@ -19,5 +19,8 @@
   "dependencies": {
     "playwright": "^1.22.2",
     "puppeteer": "^15.1.0"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
   }
 }
