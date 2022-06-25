@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/tobolt/url-analysis/issues"
   },
-  "homepage": "https://github.com/tobolt/url-analysis#readme"
+  "homepage": "https://github.com/tobolt/url-analysis#readme",
+  "dependencies": {
+    "playwright": "^1.22.2",
+    "puppeteer": "^15.1.0"
+  }
 }
