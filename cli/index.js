@@ -7,6 +7,9 @@ module.exports = [
   {
     type: 'list',
     choices: [{
+      name: 'Axios',
+      value: 'axios'
+    }, {
       name: 'Playwright',
       value: 'playwright'
     }, {

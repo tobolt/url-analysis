@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/tobolt/url-analysis#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "chalk": "^4.1.0",
     "inquirer": "^8.2.3",
     "playwright": "^1.21.1",

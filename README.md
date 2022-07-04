@@ -18,6 +18,7 @@ npm start
 ```
 
 ## Libraries
+* Axios v 0.27.2
 * Playwright v 1.22.2
 * Puppeteer v 15.1.0
 
