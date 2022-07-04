@@ -1,7 +1,7 @@
-const axios = require('axios');
+const axios = require('axios')
 
 async function getSiteData (url) {
-  const request = await axios.get(url);
+  const request = await axios.get(url)
   const html = request.data
 
   return {
